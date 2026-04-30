@@ -1,0 +1,6 @@
+{
+  "name": "To-Do List Moderne avec Rappels",
+  "description": "Une application de gestion de tâches complète avec rappels sonores, raccourcis clavier et sauvegarde locale.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

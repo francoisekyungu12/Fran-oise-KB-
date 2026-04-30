@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+}
+
+body {
+  @apply bg-[#fcfcfc] text-[#1a1a1a] antialiased overflow-x-hidden;
+}
+
+.editorial-title {
+  @apply font-serif text-[clamp(4rem,10vw,8rem)] leading-[0.8] tracking-[-0.04em] uppercase font-bold;
+}
+
+.task-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-px bg-[#e5e5e5] border-y border-[#1a1a1a];
+}
+
+.input-minimal {
+  @apply border-0 border-b border-[#1a1a1a] bg-transparent py-2 text-xl focus:ring-0 focus:border-b-2 focus:outline-none transition-all placeholder:opacity-30;
+}
+
+.shortcut-badge {
+  @apply text-[10px] font-bold px-1.5 py-0.5 border border-[#ccc] rounded uppercase mr-2;
+}
